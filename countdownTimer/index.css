@@ -46,3 +46,10 @@ span{
         transform: translateY(-800px);
     }
 }
+
+ @media (max-width:768px){
+     .container{
+         width:100%;
+         height:100%;
+     }
+ }
