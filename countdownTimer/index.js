@@ -1,4 +1,4 @@
-let targetDate = new Date("2024-05-28 00:00:00").getTime();
+let targetDate = new Date("2024-12-31 00:00:00").getTime();
 console.log(targetDate);
 
 let launch = setInterval(function(){

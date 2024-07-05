@@ -1,7 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
 .container{
     background-image: url("./images/pexelsJ.jpg");
     background-size: cover;
-    height:800px;
+   
     width:100%;
     padding:50px;
     color:white;
@@ -31,11 +35,11 @@ span{
 }
 
 #img{
-    width:50px;
-    margin-left: 1000px;
+    width:80px;
+    margin-left: 800px;
     margin-top: 250px;
     animation: rocket 4s linear infinite;
-}
+} 
 
 @keyframes rocket{
   
@@ -47,9 +51,19 @@ span{
     }
 }
 
- @media (max-width:768px){
+ @media (max-width:900px) {
      .container{
          width:100%;
-         height:100%;
+        
      }
- }
+
+     #img{
+        width:40px;
+        margin-left: 300px;
+        margin-top: 250px;
+        animation: rocket 4s linear infinite;
+    }
+
+    
+ } 
+
